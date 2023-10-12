@@ -20,7 +20,7 @@ body {
 }
 
 .text-primary {
-    color: lightyellow;
+    color: rgb(255, 255, 255);
 }
 
 #navbar {
@@ -101,5 +101,51 @@ body {
  }
  .btn:hover {
     background-color: red;
+ }
+
+ .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+ }
+ .text-center {
+    text-align: center;
+ }
+
+ .m-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+ }
+
+ .py-1 {
+    padding: 1.5rem 0;
+ }
+
+ .py-2 {
+    padding: 2rem 0;
+ }
+
+ .py-3 {
+    padding: 3rem 0;
+ }
+
+ #what .items {
+    display: flex;
+    padding: 1rem;
+ }
+
+ #what .item {
+    text-align: center;
+    padding: 1rem;
+ }
+
+ #what .items .item i {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    
  }
 

@@ -150,3 +150,45 @@ body {
     
  }
 
+.bg-light {
+    background: grey;
+    color: #333;
+}
+ .bg-dark {
+    background: grey;
+    color: var(--primary-color);
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #333;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+#manga {
+    display: flex;
+}
+
+#manga div {
+    flex: 1;
+}
+
+#manga .manga-img {
+    background: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/12/one-piece-manga-cover.jpg") no-repeat center center/cover;
+}

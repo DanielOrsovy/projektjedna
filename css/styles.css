@@ -64,6 +64,7 @@ body {
     background: #333 url('../img/lod.jpg') no-repeat center center/cover;
     height: 100vh;
     color: yellow;
+    margin-bottom: 2rem;
 }
 #showcase a {
     color: var(--primary-color);

@@ -189,6 +189,45 @@ body {
     flex: 1;
 }
 
+#manga .manga-text {
+    background: grey;
+    color: var(--primary-color);
+}
+
 #manga .manga-img {
-    background: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/12/one-piece-manga-cover.jpg") no-repeat center center/cover;
+    background: url("../img/onepiecemanga.avif") no-repeat center center/cover;
+}
+
+#anime {
+    display: flex;
+}
+
+#anime div {
+    flex: 1;
+}
+
+#anime .anime-text {
+    background: grey;
+    color: var(--primary-color);
+}
+
+#anime .anime-img {
+    background: url("../img/onepieceanime.avif") no-repeat center center/cover;
+}
+
+#live-action {
+    display: flex;
+}
+
+#live-action div {
+    flex: 1;
+}
+
+#live-action .live-action-text {
+    background: grey;
+    color: var(--primary-color);
+}
+
+#live-action .live-action-img {
+    background: url("../img/onepiecelive.avif") no-repeat center center/cover;
 }

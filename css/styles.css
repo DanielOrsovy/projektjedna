@@ -231,3 +231,9 @@ body {
 #live-action .live-action-img {
     background: url("../img/onepiecelive.avif") no-repeat center center/cover;
 }
+
+table, td, th {
+    border: solid var(--primary-color);
+    background: grey;
+}
+

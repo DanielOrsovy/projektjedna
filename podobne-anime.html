@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One piece | Eiichiro Oda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo"><a href="index.html"><i class="fa-solid fa-skull-crossbones"> One Piece | <span
+                        class="text-primary"> Eiichiro Oda</span></i></a></div>
+        <ul>
+            <li><a href="index.html#home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="index.html#manga">Manga</a></li>
+            <li><a href="index.html#anime">Anime</a></li>
+            <li><a href="index.html#live-action">Live-action</a></li>
+            <li><a href='podobne-anime.html'>Formulář</a></li>
+            <li><a href="index.html#zdroje">Zdroje</a></li>
+        </ul>
+    </nav>
+    <h2>Formulář o vaši serii</h2>
+    <p>Teď nám vy napište o vaši oblíbené serii a pošlete nám ji</p>
+    
+    <div class="container">
+      <form action="#">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Jmeno serie</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Jmeno serie..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Autor</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Autorovo jmeno..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="format">V jakem formatu je tahle serie nejlepší</label>
+          </div>
+          <div class="col-75">
+            <select id="format" name="format">
+              <option value="Anime">Anime</option>
+              <option value="Manga">Manga</option>
+              <option value="Novela">Novela</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">napiště o čem je tato serie</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="piště tady.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+</body>
+</html>

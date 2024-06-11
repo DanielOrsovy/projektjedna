@@ -299,3 +299,8 @@ input[type=text], select, textarea {
       margin-top: 0;
     }
   }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+  }

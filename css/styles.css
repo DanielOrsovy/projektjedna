@@ -301,6 +301,5 @@ input[type=text], select, textarea {
   }
 
   footer {
-    position: fixed;
     bottom: 0;
   }

@@ -11,66 +11,67 @@
 
 </head>
 <body>
+  <div class="content"> 
     <nav id="navbar">
-        <div id="logo"><a href="index.html"><i class="fa-solid fa-skull-crossbones"> One Piece | <span
-                        class="text-primary"> Eiichiro Oda</span></i></a></div>
-        <ul>
-            <li><a href="index.html#home"><i class="fa-solid fa-house"></i></a></li>
-            <li><a href="manga.html">Manga</a></li>
-            <li><a href="anime.html">Anime</a></li>
-            <li><a href="live-action.html">Live-action</a></li>
-            <li><a href='podobne-anime.html'>Formulář</a></li>
-            <li><a href="zdroje.html">Zdroje</a></li>
-        </ul>
-    </nav>
-    <h2>Formulář o vaši serii</h2>
-    <p>Teď nám vy napište o vaši oblíbené serii a pošlete nám ji</p>
-    
-    <div class="container">
-      <form action="#">
-        <div class="row">
-          <div class="col-25">
-            <label for="fname">Jmeno serie</label>
+          <div id="logo"><a href="index.html"><i class="fa-solid fa-skull-crossbones"> One Piece | <span
+                          class="text-primary"> Eiichiro Oda</span></i></a></div>
+          <ul>
+              <li><a href="index.html#home"><i class="fa-solid fa-house"></i></a></li>
+              <li><a href="manga.html">Manga</a></li>
+              <li><a href="anime.html">Anime</a></li>
+              <li><a href="live-action.html">Live-action</a></li>
+              <li><a href='podobne-anime.html'>Formulář</a></li>
+              <li><a href="zdroje.html">Zdroje</a></li>
+          </ul>
+      </nav>
+      <h2>Formulář o vaši serii</h2>
+      <p>Teď nám vy napište o vaši oblíbené serii a pošlete nám ji</p>
+      
+      <div class="container">
+        <form action="#">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Jmeno serie</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Jmeno serie..">
+            </div>
           </div>
-          <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Jmeno serie..">
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Autor</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Autorovo jmeno..">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="lname">Autor</label>
+          <div class="row">
+            <div class="col-25">
+              <label for="format">V jakem formatu je tahle serie nejlepší</label>
+            </div>
+            <div class="col-75">
+              <select id="format" name="format">
+                <option value="Anime">Anime</option>
+                <option value="Manga">Manga</option>
+                <option value="Novela">Novela</option>
+              </select>
+            </div>
           </div>
-          <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="Autorovo jmeno..">
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">napiště o čem je tato serie</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="piště tady.." style="height:200px"></textarea>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="format">V jakem formatu je tahle serie nejlepší</label>
+          <input type="checkbox" checked="checked" name="sameadr"> Souhlasíte s zpracováním dat
+          <div class="row">
+            <input type="submit" value="Submit">
           </div>
-          <div class="col-75">
-            <select id="format" name="format">
-              <option value="Anime">Anime</option>
-              <option value="Manga">Manga</option>
-              <option value="Novela">Novela</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="subject">napiště o čem je tato serie</label>
-          </div>
-          <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="piště tady.." style="height:200px"></textarea>
-          </div>
-        </div>
-        <input type="checkbox" checked="checked" name="sameadr"> Souhlasíte s zpracováním dat
-        <div class="row">
-          <input type="submit" value="Submit">
-        </div>
-      </form>
-    </div>
-
+        </form>
+      </div>
+  </div>
     <footer id="footer" class="bg-dark text-center py-1">
       <div class="container">
           <p>Copyright &copy; 2023</p>

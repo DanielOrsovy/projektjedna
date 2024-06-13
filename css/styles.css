@@ -10,8 +10,15 @@
     --secondary-color: yellow;
 }
 
+html, body {
+    /* IE 10-11 didn't like using min-height */
+    height: 100%;
+  }
+
 body {
     font-family: 'Autour One', cursive;
+    display: flex;
+    flex-direction: column;
 }
 
 #logo {
@@ -329,3 +336,15 @@ input[type=text], select, textarea {
     p {
         margin: 0.75rem 0;
     }
+    
+    html {
+        height: 100%;
+      }
+    body {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    .content {
+        flex: 1;
+      }

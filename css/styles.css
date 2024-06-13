@@ -149,7 +149,20 @@ body {
  #what .item {
     text-align: center;
     padding: 1rem;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: grey;
+    margin: 10px;
+
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(30%) scale(0.95);
  }
+
+ #what .item.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}
 
  #what .items .item i {
     background-color: grey;
@@ -308,3 +321,11 @@ input[type=text], select, textarea {
       margin-top: 0;
     }
   }
+
+  a {
+    text-decoration: none;
+    }
+
+    p {
+        margin: 0.75rem 0;
+    }
